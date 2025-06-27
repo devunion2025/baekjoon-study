@@ -1,9 +1,9 @@
 # 백준 스터디 코드 및 설명 업로드 방법
 
 ▶ 업로드 위치  
-    ① baekjoon-study 레포지토리 → 해당 주차 폴더 (예: 2025-06-23) 
-    ② 우측 상단 Add file → Create new file 클릭 
-    ③ 파일 이름 형식: 이름/README.md 
+    ① baekjoon-study 레포지토리 → 해당 주차 폴더 (예: 2025-06-23) <br>
+    ② 우측 상단 Add file → Create new file 클릭 <br>
+    ③ 파일 이름 형식: 이름/README.md <br>
 
 ▶ 풀이 설명 작성 (README.md 수정) ⇒ 코드에 주석 OK  
     ① 같은 폴더에서 README.md 클릭  

@@ -1,3 +1,7 @@
+## 문제
+백준 1251번
+설명: 주석 참고
+
 ```c
 #include <stdio.h>
 #include <string.h>

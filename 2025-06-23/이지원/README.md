@@ -1,4 +1,5 @@
-	#include <stdio.h> // 라이브러리 함수 호출
+```C
+ 	#include <stdio.h> // 라이브러리 함수 호출
 	#define _CRT_SECURE_NO_WARNINGS // Vs 2022로 작성하여 사용
 
 	int main() // 메인함수

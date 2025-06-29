@@ -1,10 +1,9 @@
-```
-#include <stdio.h>
+<pre><code>{#include <stdio.h>
 #include <string.h> //문자열 관련 함수
 #include <ctype.h> //toupper() 함수를 쓰기 위해 필요 (소문자를 대문자로 바꿈)
 
 int main(void) {
-    char word[1000001];  // 최대 길이 1,000,000 + NULL
+    char word[1000001];  // 최대 길이 1,000,000 + 널문자
     int alphabet[26] = {0}; // A~Z 카운트용 배열
     int max = 0; // 최대 등장 횟수 저장
     char result = '?'; // 결과로 출력할 알파벳, 기본은 '?' (동점 대비)
@@ -31,4 +30,4 @@ int main(void) {
     printf("%c\n", result);
     return 0;
 }
-```
+}</code></pre>

@@ -14,3 +14,6 @@ int main() {
     printf("%d %d %d\n", a, b, c);
     return 0;
 }
+
+1157번
+풀이법 생각 파이썬이면 딕셔너리에서 카운터

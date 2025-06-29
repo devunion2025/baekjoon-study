@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    int temp;
+
+    // 세 개의 정수를　입력받는　코드
+    scanf_s("%d %d %d", &a, &b, &c);
+
+    // a와 b 비교하여 큰 값을 뒤로 보내는　코드
+    if (a > b) {
+        temp = a;
+        a = b;
+        b = temp;
+    }
+
+    // b와 c 비교하여 큰 값을 뒤로 보내는　코드
+    if (b > c) {
+        temp = b;
+        b = c;
+        c = temp;
+    }
+
+    // c가 이동했을 수 있으므로　a와 b 다시 비교하는　코드
+    if (a > b) {
+        temp = a;
+        a = b;
+        b = temp;
+    }
+
+    // 작은 수부터 큰 수 순서로　정렬된 결과 출력　코드 
+    printf("%d %d %d\n", a, b, c);
+
+    return 0;
+}

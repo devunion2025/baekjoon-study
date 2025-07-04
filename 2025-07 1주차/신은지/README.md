@@ -7,7 +7,7 @@ int main() {
 
     scanf("%d", &N);
 
-    for(int i=0; i<N; i++) {
+    for(int i = 0; i < N; i++) {
         int h, m, t;
         scanf("%d:%d %d", &h, &m, &t);
 

@@ -13,11 +13,13 @@ int main() {
 
         int start = h * 60 + m;  // 시작 시각을 분 단위로
 
-        for(int j = 0; j < t; j++) {  // 1분마다 시간체크 후 money 변경
+        // 1분마다 시간체크 후 money 변경
+        for(int j = 0; j < t; j++) {
             int now = (start + j) % 1440;  // 하루가 지나면 0분으로 변경
+
             if(now >= 7*60 && now < 19*60) {  // 07:00 ~ 18:59
                 money += 10;
-            } else {
+            } else { 
                 money += 5;
             }
         }

@@ -1,5 +1,5 @@
 # 백준 11943
-'''C
+```C
 #include <stdio.h>
 // 과일을 옮기는 최소 횟수 구해야 함.
 // a+d / b+c 중에 더 작은 것 옮기면 됨
@@ -9,10 +9,10 @@ int main(){
     scanf("%d %d %d %d",&a,&b,&c,&d);
     printf("%d",a+d<b+c?a+d:b+c);
 }
-'''
+```
 
 # 백준 4998
-'''C
+```C
 #include <stdio.h>
 //여러 개의 입력이므로 while scanf != EOF 사용
 //이자율을 곱한 횟수 카운트 후 목표 금액을 넘은 순간 출력
@@ -29,4 +29,4 @@ int main(){
         printf("%lld\n",c);
     }
 }
-'''
+```

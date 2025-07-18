@@ -14,7 +14,7 @@ int main() {
 
         int count = 0; // 개수 카운트
 
-        // 개수 세기
+        // \n 전까지 개수 세기
         for (int i = 0; arr[i] != '\n'; i++) {
             char c = arr[i];
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||

@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    char arr[255];
+    char arr[257];
 
     // fgets로 arr를 입력받으면 while문 실행
     while (fgets(arr, sizeof(arr), stdin)) {

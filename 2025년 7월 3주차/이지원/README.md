@@ -3,7 +3,7 @@
 
 int main ()
 {
-    char line[256];
+    char line[257];
 
     while (1)
     {

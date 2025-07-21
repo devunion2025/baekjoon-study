@@ -1,4 +1,4 @@
-<pre><code>
+```c
 #include <stdio.h>
 #include <string.h> //문자열 관련 함수
 #include <ctype.h> //toupper() 함수를 쓰기 위해 필요 (소문자를 대문자로 바꿈)
@@ -31,4 +31,4 @@ int main(void) {
     printf("%c\n", result);
     return 0;
 }
-</code></pre>
+```

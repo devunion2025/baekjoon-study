@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+void sort_desc(int arr[], int n) {
+    // 내림차순 삽입정렬
+    for (int i = 1; i < n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j >= 0 && arr[j] < key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}
+
+int main(void) {
+    int T;
+    int arr[10];
+    scanf("%d", &T);
+    for (int t = 0; t < T; t++) {
+        // 배열 입력 받기
+        for (int i = 0; i < 10; i++) {
+            scanf("%d", &arr[i]);
+        }
+        // 내림차순 정렬
+        sort_desc(arr, 10);
+        // 3번째 큰 수 출력 (0-based index이므로 인덱스 2)
+        printf("%d\n", arr[2]);
+    }
+    return 0;
+}

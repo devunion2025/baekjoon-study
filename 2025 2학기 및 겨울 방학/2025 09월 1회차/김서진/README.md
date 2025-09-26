@@ -14,3 +14,4 @@ Enter "help" below or click "Help" above for more information.
   *****
  *******
 *********
+<img width="638" height="399" alt="백준 2442번" src="https://github.com/user-attachments/assets/f80bebde-87f2-40b5-b4d6-510e49e4fcd5" />
